@@ -1,0 +1,93 @@
+*{
+    background-color: aliceblue;
+    font-size: 62.5%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+
+
+th{
+    font-size: 2rem;
+}
+
+table, th, tr{
+    border: 0.2rem solid gray;
+    border-collapse: collapse;
+    width: 100%;
+    border-color: pink;
+}
+
+th{
+    width: 33.33%;
+    height: 10rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+img{
+    width: 20rem; 
+}
+
+p{
+    font-size: 3rem;
+    color: pink;
+}
+
+
+.playbutton{
+    border-left: 8rem solid pink;
+    border-right: 0rem solid green;
+    border-top: 4rem solid transparent;
+    border-bottom: 4rem solid transparent;
+    width: 0rem;
+    height: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.playbutton:active{
+    border-left: 8rem solid rgb(247, 235, 237);
+}
+
+.header_row{
+    font-weight: bold;
+}
+
+.topnav{
+    background-color: pink;
+    display: flex;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.topnav a{
+    color: white;
+    padding: 1rem ;
+    text-decoration: none;
+    font-size: 2.5rem;
+    background-color: pink;
+}
+
+.topnav a:hover {
+    color: rgb(247, 235, 237);
+  }
+
+.bottom_date{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+hr{
+    border: 0.1rem solid pink;
+    margin: 1rem;
+}
+
+.choose_day{
+    text-decoration: none;
+    font-size: 3rem;
+    color: pink;
+}
