@@ -6,21 +6,21 @@
     margin: 0;
 }
 
-
-th{
-    font-size: 2rem;
+table{
+    display: inline-table;
 }
 
 table, th, tr{
     border: 0.2rem solid gray;
     border-collapse: collapse;
-    width: 100%;
+    width: 95%;
     border-color: pink;
 }
 
 th{
     width: 33.33%;
     height: 10rem;
+    font-size: 2rem;
 }
 
 h1{
@@ -55,6 +55,8 @@ p{
 
 .header_row{
     font-weight: bold;
+    background-color: rgba(254, 217, 223, 0.643);
+    color: #333;
 }
 
 .topnav{
