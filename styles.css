@@ -4,6 +4,7 @@
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
+    hyphens: auto;
 }
 
 table{
@@ -92,4 +93,13 @@ hr{
     text-decoration: none;
     font-size: 3rem;
     color: pink;
+}
+
+.valeria{
+    padding: 3rem;
+}
+
+.pronoun{
+    font-size: 2rem;
+    color:cornflowerblue
 }
